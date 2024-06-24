@@ -1,0 +1,70 @@
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 1500px;
+  }
+  
+  .card {
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .image {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    /* border: 1px solid #ddd; */
+    border-radius: 30px;
+    padding: 0px;
+    cursor: grab;
+
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .info {
+    padding: 0px;
+  }
+  
+  .author {
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+  
+  .author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .author span {
+    font-weight: bold;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .stats span {
+    margin-right: 20px;
+  }
